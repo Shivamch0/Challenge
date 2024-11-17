@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(148, 38%, 91%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px;
+    padding: 20px 30px 20px 30px;
+}
+
+.name{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.name input{
+    width: 260px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.email input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+
+.query{
+    margin-top: 20px;
+}
+
+.query-type{
+    display: flex;
+    gap: 50px;
+    margin-top: 5px;
+}
+
+.gen , .sup{
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#lbl{
+    padding-left: 8px;
+}
+
+.message{
+    margin-top: 20px;
+}
+
+.message textarea{
+    width: 100%;
+    height: 130px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#terms{
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(169, 82%, 27%);
+    color: white;
+}
+
+.attribution{
+    text-align: center;
+}
+
+
+
